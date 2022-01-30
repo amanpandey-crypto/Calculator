@@ -1,27 +1,28 @@
 body{
 	font-family: 'Open Sans',sans-serif;
 	background-color: black;
+	background-image: linear-gradient(rgba(241, 213, 113, 0.3),rgba(86, 30, 240, 0.3));
 }
 #container{
-	width: 1000px;
-	height: 550px;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(cal.jpg);
-
+	width: 950px;
+	height: 555px;
+    background-image: linear-gradient(rgba(184, 182, 175, 0.3),rgba(110, 87, 173, 0.3)), url(calc.jpg);
+	border-radius: 3rem;
     margin: 20px auto;	
-    /* background-repeat: no-repeat; */
 }
 #calculator{
 	width: 320px;
 	height: 520px;
 	background-color: #eaedef;
-	margin: 0 auto;
+	margin-left: 18.3rem;
 	top: 20px;
 	position: relative;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2rem;
+	box-shadow: 0 8px 16px 0 rgba(250, 1, 1, 0.2), 0 14px 34px 0 rgba(0, 0, 0, 0.19);
 }
 #result{
 	height: 120px;
+	color: #941173;
 }
 #history{
 	text-align: right;
@@ -29,7 +30,7 @@ body{
 	margin: 0 20px;
 	padding-top: 20px;
 	font-size: 15px;
-	color: #919191;
+	color: #a886f8;
 }
 #output{
 	text-align: right;
@@ -50,8 +51,8 @@ body{
 	font-weight: bold;
 	font-size: 15px;
 }
-.number, .empty{
-	background-color: #eaedef;
+.number{
+	background-image: linear-gradient(rgba(241, 213, 113, 0.3),rgba(86, 30, 240, 0.3));
 }
 .number, .operator{
 	cursor: pointer;
